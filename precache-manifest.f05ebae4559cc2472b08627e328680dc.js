@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "98c099ff63efd8d16886",
-    "url": "/aerolab-challenge/static/css/main.aff91608.chunk.css"
+    "revision": "d7d89f4d41965e40ea6a",
+    "url": "/aerolab-challenge/static/css/main.780f829d.chunk.css"
   },
   {
-    "revision": "98c099ff63efd8d16886",
+    "revision": "d7d89f4d41965e40ea6a",
     "url": "/aerolab-challenge/static/js/main.65eca5bd.chunk.js"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/aerolab-challenge/static/media/buy-white.40bc2813.svg"
   },
   {
-    "revision": "4245a658668ad469e13bd67b2f99b90e",
+    "revision": "5d0960105d85e447eee0cf8450981bf8",
     "url": "/aerolab-challenge/index.html"
   }
 ];

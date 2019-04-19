@@ -1,0 +1,154 @@
+@import "../../palette";
+
+.card {
+  background: $text-white;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  position: relative;
+  float: left;
+  cursor: pointer;
+  transition: all 0.2s;
+  animation: fade-in 2s;
+  max-width: 276px;
+  place-self: center;
+
+  &:hover .card-content {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &:hover {
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.7);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card-body {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  flex-direction: row;
+}
+
+.card-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(
+    -180deg,
+    rgba(10, 212, 250, 0.9),
+    rgba(37, 187, 241, 0.9)
+  );
+  color: $text-white;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.2s;
+}
+
+.product-label {
+  font-size: 24px;
+  color: $background-dark-grey;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.04px;
+  text-align: left;
+}
+
+.card-category {
+  font-size: 16px;
+  color: $text-soft-grey;
+}
+
+.card-description {
+  font-size: 18px;
+  color: $background-dark-grey;
+}
+
+.card-cost {
+  margin: 5px;
+  font-size: 36px;
+  color: $text-white;
+  letter-spacing: -0.08px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-thumbnail {
+  align-self: center;
+}
+
+.redeem {
+  font-size: 18px;
+  color: $background-dark-grey;
+  letter-spacing: -0.04px;
+  background: $text-white;
+  width: 228px;
+  height: 42px;
+}
+
+.redeem-sm {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+
+  &.blue {
+    right: 10px;
+    top: 10px;
+  }
+
+  &.white {
+    right: 3px;
+    top: 8px;
+  }
+}
+
+.cant-redeem {
+  opacity: 0.8;
+  background: $background-dark-grey;
+  width: 142px;
+  height: 42px;
+  font-size: 14px;
+  color: $text-white;
+  letter-spacing: -0.03px;
+  padding: 0 0 0 10px;
+  animation: expand 1s;
+
+  &.content {
+    right: 10px;
+    top: 10px;
+  }
+}
+
+@keyframes expand {
+  from {
+    width: 42px;
+  }
+  to {
+    width: 142px;
+  }
+}
+
+.pop-close {
+  z-index: 1;
+  position: relative;
+}

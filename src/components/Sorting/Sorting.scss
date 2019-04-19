@@ -1,0 +1,36 @@
+@import "../../palette";
+
+.sort-label {
+  font-size: 24px;
+  color: $text-soft-grey;
+  letter-spacing: -0.15px;
+  line-height: 48px;
+  text-align: left;
+}
+
+.sort-options {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.sort-item {
+  padding: 0 1rem 0 1rem;
+  margin: 0 0.5rem 0 0.5rem;
+  background: $background-soft-white;
+  border-radius: 100px;
+  height: 48px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  letter-spacing: -0.15px;
+  line-height: 48px;
+  color: $text-soft-grey;
+  text-align: left;
+}
+
+.sort-active {
+  background: $background-light-blue;
+  color: $text-white;
+}

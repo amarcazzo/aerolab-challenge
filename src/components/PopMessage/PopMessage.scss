@@ -1,0 +1,63 @@
+@import "../../palette";
+
+.pop-message {
+  position: sticky;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+  padding: 1rem;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 8px;
+  display: none;
+
+  &.warning {
+    background-color: $warning;
+  }
+
+  &.success {
+    background-color: $success;
+  }
+
+  &.error {
+    background-color: $error;
+  }
+}
+
+.show {
+  display: inline;
+  animation: fade-in-bottom 1.5s;
+}
+
+.pop-title {
+  font-weight: 800;
+  color: $text-white;
+  margin: 0;
+  letter-spacing: 2.5px;
+}
+
+.pop-body {
+  color: $text-white;
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.pop-close {
+  background: transparent;
+  border-radius: 2px;
+  color: $text-white;
+}
+
+.pop-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}

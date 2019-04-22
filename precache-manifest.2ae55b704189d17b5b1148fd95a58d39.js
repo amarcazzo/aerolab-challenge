@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d7d89f4d41965e40ea6a",
+    "revision": "151577572647bdea51cc",
     "url": "/aerolab-challenge/static/css/main.780f829d.chunk.css"
   },
   {
-    "revision": "d7d89f4d41965e40ea6a",
-    "url": "/aerolab-challenge/static/js/main.65eca5bd.chunk.js"
+    "revision": "151577572647bdea51cc",
+    "url": "/aerolab-challenge/static/js/main.e7ed5d9c.chunk.js"
   },
   {
     "revision": "ec27a2cda7987cd3902b",
     "url": "/aerolab-challenge/static/js/runtime~main.a572dc51.js"
   },
   {
-    "revision": "1c35352d1ef63c9f6388",
-    "url": "/aerolab-challenge/static/js/2.2f7bd573.chunk.js"
+    "revision": "a0d4de1af05e0b8236b4",
+    "url": "/aerolab-challenge/static/js/2.a138c52e.chunk.js"
   },
   {
     "revision": "f0b98264ce8c93768fbf37c263885aaa",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/aerolab-challenge/static/media/buy-white.40bc2813.svg"
   },
   {
-    "revision": "5d0960105d85e447eee0cf8450981bf8",
+    "revision": "b16a5e9bacd5e97e0fe8425d935d61bb",
     "url": "/aerolab-challenge/index.html"
   }
 ];
